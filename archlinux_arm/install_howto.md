@@ -50,3 +50,6 @@
 
 8.	Masukkan SD card ke dalam Raspberry pi, hubungkan kabel ethernet dan tancapkan power 5V
 9.	Gunakan ssh untuk mengendalikan Raspberry Pi.
+
+Referensi :
+- http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2
