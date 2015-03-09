@@ -1,2 +1,2 @@
 ##Archlinux Arm How to
-Based on Raspberry Pi 2
+![archlinux](img/archlinux.png)
