@@ -1,7 +1,7 @@
 ## Cara install Archlinux Arm di Raspberry pi
 **CATATAN :**
 - Disini saya menggunakan distro linux sebagai media installasi archlinux arm di sdcard untuk raspberry pi
-- Setelah installasi ini, sdcard tidak perlu di resize lagi untuk mendapatkan keseluruhan size partisi
+-Setelah installasi ini, sdcard tidak perlu di resize lagi untuk mendapatkan keseluruhan size partisi
 - **sdX** dan **mmcblkX** adalah penamaan device dari sdcard. jika menggunakan adapter micro sdcard, maka nama device sdcardnya **mmcblkX**. dan jika menggunakan card reader, maka nama device sdcardnya **sdX** 
 
 1.	Jalankan fdisk untuk pemartisian SD card:
