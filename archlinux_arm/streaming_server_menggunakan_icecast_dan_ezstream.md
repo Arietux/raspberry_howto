@@ -43,7 +43,6 @@
 
 4.	Setelah terinstall selanjutnya konfigurasi ezstream:
 	```
-	ch playlist.m3u
 	cp /usr/share/example/ezstream/ezstream_mp3.xml
 	```
 
