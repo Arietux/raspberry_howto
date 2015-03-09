@@ -1,18 +1,13 @@
 ##Konfigurasi jaringan di Archlinux Arm 
 
 ####Konfigurasi Jaringan Static
-1.	Pertama kali matikan servis systemd-networkd.service
-	```
-	systemctl disable systemd-networkd.service
-	```
-
-2.	Kemudian buat konfigurasi jaringan statik
+1.	Kemudian buat konfigurasi jaringan statik
 	```
 	cd /etc/netctl
 	cp example/ethernet-static eth0
 	```
 
-	untuk konfigurasi bisa di sesuaikan sendiri:
+2.	untuk konfigurasi bisa di sesuaikan sendiri:
 	```
 	Description='My raspi network'
 	Interface=eth0
@@ -27,7 +22,7 @@
 	DNS=('8.8.8.8' '8.8.4.4')
 	```
 
-	setelah itu simpan dan jalankan profile yang telah dibuat :
+3.	setelah itu simpan dan jalankan profile yang telah dibuat :
 	```
 	netctl start eth0 && netctl enable eth0
 	```
