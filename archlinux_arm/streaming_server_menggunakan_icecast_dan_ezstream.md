@@ -66,3 +66,4 @@
 	ezstream -c ezstream_mp3.xml
 	```
         
+![Screenshot](img/stream.png)
